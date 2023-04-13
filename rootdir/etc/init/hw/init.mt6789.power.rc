@@ -60,6 +60,9 @@ on init
     write /proc/sys/vm/dirty_ratio 15
     write /proc/sys/vm/dirty_expire_centisecs 2000
 
+    # Adjust watermark level
+    write /proc/sys/vm/watermark_scale_factor 125
+
 on enable-low-power
     write /sys/devices/platform/soc/11270000.ufshci/clkgate_enable 1
     write /proc/sys/kernel/sched_migration_cost_ns 200000
