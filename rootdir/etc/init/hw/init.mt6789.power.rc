@@ -107,10 +107,5 @@ on enable-low-power
     write /dev/cpuctl/camera-daemon/cpu.uclamp.min 50
     write /dev/cpuctl/camera-daemon/cpu.uclamp.latency_sensitive 1
 
-# End boot time tuning
-on property:sys.boot_completed=1
-    write /sys/devices/system/cpu/cpufreq/policy0/scaling_governor "sugov_ext"
-    write /sys/devices/system/cpu/cpufreq/policy6/scaling_governor "sugov_ext"
-
 on property:sys.boot_completed=1
     trigger enable-low-power
