@@ -246,6 +246,11 @@
         <fqname>@1.1::IISPModule/internal/0</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.mediatek.hardware.camera.postproc</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IPostDevice/internal/0</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.mediatek.hardware.composer_ext</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
