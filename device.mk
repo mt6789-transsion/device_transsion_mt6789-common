@@ -487,6 +487,10 @@ PRODUCT_PACKAGES += \
     libunwindstack.vendor \
     libutilscallstack.vendor
 
+# vndservice
+PRODUCT_PACKAGES += \
+   vndservicemanager
+    
 # Wi-Fi
 PRODUCT_PACKAGES += \
     libwifi-hal-wrapper \
