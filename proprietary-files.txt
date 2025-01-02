@@ -2152,9 +2152,6 @@ vendor/lib64/libtranlog.so
 vendor/lib64/vendor.transsion.hardware.tranlog@1.0.so
 vendor/lib64/vendor.transsion.hardware.tranlogconfig@1.0.so
 
-# Transsion Camera - from Irawans ROM 
--system_ext/app/TranssionCamera/TranssionCamera.apk
-
 # Vibrator
 vendor/lib/libvibrator.so
 vendor/lib64/libvibrator.so
