@@ -109,9 +109,6 @@ ro.ril.fast.dormancy.timeout=3
 ro.vendor.use_data_netmgrd=true
 ro.vold.umsdirtyratio=20
 
-# SLA
-ro.vendor.net.enable_sla=1
-
 # Thermal Management
 persist.thermal_config.mitigation=1
 ro.mtk_thermal_monitor.enabled=true
